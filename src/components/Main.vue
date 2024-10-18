@@ -237,7 +237,7 @@ ul li::before {
 
 .resume-part {
     border-radius: 15px;
-    background-color: #efefef;
+    background-color: #ffffff88;
     border: 2px solid #00000088;
     padding-left: 15px;
     padding-right: 15px;

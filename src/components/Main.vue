@@ -12,6 +12,8 @@
                             <p>
                                 <b>Junior Buyer</b>, Sierra Bravo Aviation, Remote Internship
                                 <br>November 2024 - Current
+                                <br>
+                                <br>
                                 <b>Sales Associate</b>, Staples, Chandler, AZ
                                 <br>November 2022 - Current
                             </p>
@@ -100,14 +102,59 @@ Happy Returns, USPS, and UPS, creating a positive experience for more than 10% o
                         <template v-else-if="section.key === 'education'">
                             <h2 class="no-bottom-margin">W.P. Carey School of Business, Arizona State University</h2>
                             <span>Tempe, AZ | December 2024</span>
-                            <p>
+                            <br>
+                            <h2 class="no-bottom-margin slightly-smaller">
                                 Bachelor of Arts in Global Logistics Management
-                            </p>
+                            </h2>
+                            <span>GPA: 4.00</span>
+                            <br>
+                            <span>Summa Cum Laude</span>
+                            <br>
+                            <h2 class="no-bottom-margin slightly-smaller">
+                                AACSB Accreditation
+                            </h2>
+                            <h3>Dean's List:</h3>
+                            <ul>
+                                <li>
+                                    Fall 2024
+                                </li>
+                                <li>
+                                    Spring 2024
+                                </li>
+                                <li>
+                                    Fall 2023
+                                </li>
+                                <li>
+                                    Spring 2023
+                                </li>
+                            </ul>
+                            <hr>
                             <h2 class="no-bottom-margin">Chandler-Gilbert Community College</h2>
                             <span>Chandler, AZ | December 2022</span>
-                            <p>
+                            <h2 class="no-bottom-margin slightly-smaller">
                                 Associate in Business
-                            </p>
+                            </h2>
+                            <span>GPA: 3.61</span>
+                            <br>
+                            <span>Cum Laude</span>
+                            <h3>Dean's List:</h3>
+                            <ul>
+                                <li>
+                                    Fall 2022
+                                </li>
+                                <li>
+                                    Spring 2022
+                                </li>
+                                <li>
+                                    Fall 2021
+                                </li>
+                                <li>
+                                    Spring 2021
+                                </li>
+                                <li>
+                                    Fall 2020
+                                </li>
+                            </ul>
                         </template>
                         <template v-else-if="section.key === 'school_and_community_experience'">
                             <h2 class="no-bottom-margin">Sun Devil Stock Exchange</h2>
@@ -261,6 +308,10 @@ hr {
 .section-content {
     overflow: hidden;
     transition: height 0.3s ease;
+}
+
+.slightly-smaller {
+    font-size:1.3em;
 }
 
 @media screen and (max-width: 800px) {

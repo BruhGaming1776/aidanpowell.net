@@ -10,36 +10,34 @@
                         <template v-if="section.key === 'professional_experience'">
                             <!-- Professional Experience content -->
                             <p>
+                                <b>Junior Buyer</b>, Sierra Bravo Aviation, Remote Internship
+                                <br>November 2024 - Current
                                 <b>Sales Associate</b>, Staples, Chandler, AZ
                                 <br>November 2022 - Current
                             </p>
                             <ul>
                                 <li>
-                                    Zero balanced and cycle counted floor inventory, down-stocked and up-stocked
-                                    inventory, and increased or decreased inventory
-                                    data points within our IMS to better reflect true store inventory levels.
+                                    Implemented use of cycle counting and zero balancing floor inventory, down-stocking and up-stocking inventory, and increases
+or decreases of inventory data points within our IMS to better reflect and optimize true store inventory levels leading to a 60%
+decrease of shrinkage year over year.
                                 </li>
                                 <li>
-                                    Received online orders in-store daily and ordered products for customers from
-                                    Staples’ IMS coming from the Tolleson DC to
-                                    allow the flow of goods from B2C; as well as received freight on a weekly basis by
-                                    tractor trailer loaded on pallets.
+                                    Introduced a FIFO method for perishables leading to 20% less shrinkage.
                                 </li>
                                 <li>
-                                    Utilized RFID scanners and store RMS’ to enable reverse logistics for companies such
-                                    as Amazon, Express by Optoro, Happy
-                                    Returns, USPS, and UPS.
+                                    Increased customer retention rate by 20% from 50% to 70% through refined interactions, resulting in higher repeat transactions.
                                 </li>
                                 <li>
-                                    Shipped products using in-store software domestically through UPS, collecting
-                                    customer information as well as package
-                                    information such as product type, weight, dimensions, addresses, and shipment
-                                    methods.
+                                    Leveraged RFID scanners and store RMS’ for reverse logistics systems by companies such as Amazon, Express by Optoro,
+Happy Returns, USPS, and UPS, creating a positive experience for more than 10% of all customers.
                                 </li>
                             </ul>
                         </template>
                         <template v-else-if="section.key === 'technical_skills'">
                             <ul>
+                                <li>
+                                    Skills: Inventory Management Systems, Return Management Systems, Barcode – UPC – QR Code reading, Point of Sale Systems
+                                </li>
                                 <li>
                                     Languages: Fluent in spoken and written English, intermediate in written French.
                                 </li>
@@ -101,12 +99,12 @@
                         </template>
                         <template v-else-if="section.key === 'education'">
                             <h2 class="no-bottom-margin">W.P. Carey School of Business, Arizona State University</h2>
-                            <span>Tempe, AZ</span>
+                            <span>Tempe, AZ | December 2024</span>
                             <p>
                                 Bachelor of Arts in Global Logistics Management
                             </p>
                             <h2 class="no-bottom-margin">Chandler-Gilbert Community College</h2>
-                            <span>Chandler, AZ</span>
+                            <span>Chandler, AZ | December 2022</span>
                             <p>
                                 Associate in Business
                             </p>

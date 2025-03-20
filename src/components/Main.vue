@@ -41,9 +41,6 @@ Happy Returns, USPS, and UPS, creating a positive experience for more than 10% o
                                     Skills: Inventory Management Systems, Return Management Systems, Barcode – UPC – QR Code reading, Point of Sale Systems
                                 </li>
                                 <li>
-                                    Languages: Fluent in spoken and written English, intermediate in written French.
-                                </li>
-                                <li>
                                     Programs: Microsoft Excel; Tableau; MiniTab; Microsoft Visio.
                                 </li>
                             </ul>

@@ -12,8 +12,11 @@
                             <p>
                                 <b>Junior Buyer</b>, Sierra Bravo Aviation, Remote Internship
                                 <br>November 2024 - Current
-                                <br>
-                                <br>
+                            </p>
+                            <ul>
+                                <li>Purchased MRO supplies to maintain day-to-day operations.</li>
+                            </ul>
+                            <p>
                                 <b>Sales Associate</b>, Staples, Chandler, AZ
                                 <br>November 2022 - Current
                             </p>
@@ -25,9 +28,6 @@ decrease of shrinkage year over year.
                                 </li>
                                 <li>
                                     Introduced a FIFO method for perishables leading to 20% less shrinkage.
-                                </li>
-                                <li>
-                                    Increased customer retention rate by 20% from 50% to 70% through refined interactions, resulting in higher repeat transactions.
                                 </li>
                                 <li>
                                     Leveraged RFID scanners and store RMS’ for reverse logistics systems by companies such as Amazon, Express by Optoro,

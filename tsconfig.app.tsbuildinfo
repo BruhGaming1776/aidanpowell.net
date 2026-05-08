@@ -1,1 +1,1 @@
-{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/store/modalstore.ts"],"version":"5.6.2"}
+{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/store/modalStore.ts","./src/App.vue","./src/components/Main.vue","./src/components/TopNav.vue","./src/modal/ContactModal.vue"],"version":"5.6.2"}

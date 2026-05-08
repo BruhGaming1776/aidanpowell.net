@@ -9,9 +9,7 @@ html, body {
 }
 
 html {
-    /* this is bad
-      -Aidan */
-    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(180deg, #cfe1f2 0%, #9bc4e8 50%, #6fa8d6 100%);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;

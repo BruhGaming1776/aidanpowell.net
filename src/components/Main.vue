@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="main-pane">
-            <div v-for="(section, index) in sections" :key="section.key" class="resume-part">
+            <div v-for="section in sections" :key="section.key" class="resume-part">
                 <h1 @click="setActivePart(section.key)">{{ section.title }}</h1>
                 <hr />
                 <transition @before-enter="beforeEnter" @enter="enter" @leave="leave">
@@ -195,30 +195,32 @@ export default defineComponent({
             activePart.value = key;
         }
 
-        function beforeEnter(el: HTMLElement) {
-            el.style.height = '0';
+        function beforeEnter(el: Element) {
+            (el as HTMLElement).style.height = '0';
         }
 
-        function enter(el: HTMLElement, done: () => void) {
-            el.style.height = el.scrollHeight + 'px';
+        function enter(el: Element, done: () => void) {
+            const html = el as HTMLElement;
+            html.style.height = html.scrollHeight + 'px';
             const afterEnter = () => {
-                el.style.height = 'auto';
-                el.removeEventListener('transitionend', afterEnter);
+                html.style.height = 'auto';
+                html.removeEventListener('transitionend', afterEnter);
                 done();
             };
-            el.addEventListener('transitionend', afterEnter);
+            html.addEventListener('transitionend', afterEnter);
         }
 
-        function leave(el: HTMLElement, done: () => void) {
-            el.style.height = el.scrollHeight + 'px';
+        function leave(el: Element, done: () => void) {
+            const html = el as HTMLElement;
+            html.style.height = html.scrollHeight + 'px';
             // Force repaint to make sure the transition starts
-            void el.offsetHeight;
-            el.style.height = '0';
+            void html.offsetHeight;
+            html.style.height = '0';
             const afterLeave = () => {
-                el.removeEventListener('transitionend', afterLeave);
+                html.removeEventListener('transitionend', afterLeave);
                 done();
             };
-            el.addEventListener('transitionend', afterLeave);
+            html.addEventListener('transitionend', afterLeave);
         }
 
         const sections = [

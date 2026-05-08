@@ -82,7 +82,7 @@ export default defineComponent({
                 <p class="hero-tagline">Global Logistics Management graduate &middot; Supply chain &amp; operations.</p>
                 <div class="hero-about">
                     <p>Hi, I'm Aidan. I recently graduated <em>summa cum laude</em> from the W.P. Carey School of Business at Arizona State University with a B.A. in Global Logistics Management.</p>
-                    <p>I'm currently a Junior Buyer at Sierra Bravo Aviation and a Sales Associate at Staples, where I focus on procurement, inventory management, and operational efficiency. Have a look around &mdash; my contact info is at the bottom of the page.</p>
+                    <p>My background in global logistics management and business from Arizona State University has shaped my fascination and deep study into how supply chain and procurement shape and support both businesses and the people they serve. Now, as part of a large medical procurement network, I'm incredibly grateful to apply those skills in such a meaningful way&mdash;supporting our Veterans and helping ensure great care for our nation's protectors!</p>
                 </div>
             </div>
         </section>
@@ -97,7 +97,7 @@ export default defineComponent({
                     <h2>Professional Experience</h2>
                 </div>
                 <div class="panel-body">
-                    <p class="panel-intro">Where I've been putting it to work.</p>
+                    <p class="panel-intro">Where I've been putting my skills to work.</p>
                     <div class="card-grid">
                         <div class="card">
                             <div class="card-icon card-icon-blue">
@@ -105,16 +105,17 @@ export default defineComponent({
                             </div>
                             <div class="card-body">
                                 <div class="card-title-row">
-                                    <h3>Junior Buyer</h3>
+                                    <h3>Procurement Associate</h3>
                                     <span class="badge badge-green">Current</span>
                                 </div>
-                                <p class="card-meta">Sierra Bravo Aviation &middot; Remote Internship &middot; Nov 2024 &ndash; Present</p>
+                                <p class="card-meta">Arizona DVS &middot; Phoenix, AZ &middot; Nov 2025 &ndash; Present</p>
                                 <ul class="card-list">
-                                    <li>Purchasing MRO supplies to maintain day-to-day operations.</li>
+                                    <li>Built a custom inventory ERP system by hand that led to outbound scanning time taking seconds, which gave way to the introduction of vendor-level inventory analytics, improving warehouse efficiency and purchasing decisions.</li>
+                                    <li>Processed vendor invoices, PO's, and internal customer requests for both ASVH-P &amp; AVMC-CN using all available vendors and procurement methods, leading to a <strong>25&ndash;50% decrease</strong> for the majority of items being requested.</li>
                                 </ul>
                             </div>
                         </div>
-
+                        
                         <div class="card">
                             <div class="card-icon card-icon-amber">
                                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6h-3V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm9 15H5V8h14v11z"/></svg>
@@ -122,13 +123,12 @@ export default defineComponent({
                             <div class="card-body">
                                 <div class="card-title-row">
                                     <h3>Sales Associate</h3>
-                                    <span class="badge badge-green">Current</span>
                                 </div>
-                                <p class="card-meta">Staples &middot; Chandler, AZ &middot; Nov 2022 &ndash; Present</p>
+                                <p class="card-meta">Staples &middot; Chandler, AZ &middot; Nov 2022 &ndash; Nov 2025</p>
                                 <ul class="card-list">
-                                    <li>Implemented cycle counting and zero-balancing of floor inventory across our IMS, contributing to a <strong>60% year-over-year reduction in shrinkage</strong>.</li>
-                                    <li>Introduced a FIFO method for perishables, reducing shrinkage by an additional <strong>20%</strong>.</li>
-                                    <li>Operated RFID scanners and store RMS for reverse logistics with Amazon, Optoro, Happy Returns, USPS, and UPS &mdash; serving over 10% of all customers.</li>
+                                    <li>Supported a <strong>40% reduction in inventory shrinkage</strong> over two years by implementing cycle counts, zero balancing, and precise IMS adjustments, reflecting true store inventory levels.</li>
+                                    <li>Managed USPS, UPS, FedEx, &amp; DHL package intakes maintaining a 30-minute pickup turnaround for customers.</li>
+                                    <li>Directly oversaw USPS mail intake, shipping, shredding, mailbox creation, customer pickups, and consolidations. Enabled global Ipostal customers at our store to access their mail within 2 hours, driving a <strong>15% increase in customer acquisition</strong>.</li>
                                 </ul>
                             </div>
                         </div>
@@ -193,6 +193,8 @@ export default defineComponent({
                         <div class="skill-group">
                             <h4>Systems</h4>
                             <ul class="tag-list">
+                                <li>Internal Procurement Portals</li>
+                                <li>Punchout Systems</li>
                                 <li>Inventory Management Systems</li>
                                 <li>Return Management Systems</li>
                                 <li>Point of Sale Systems</li>
@@ -206,6 +208,7 @@ export default defineComponent({
                                 <li>Tableau</li>
                                 <li>MiniTab</li>
                                 <li>Microsoft Visio</li>
+                                <li>Adobe Acrobat</li>
                             </ul>
                         </div>
                     </div>
@@ -305,8 +308,7 @@ export default defineComponent({
 
         <footer class="site-footer">
             <div class="footer-inner">
-                <p>&copy; {{ currentYear }} Aidan Powell. All rights reserved.</p>
-                <p class="footer-meta">Built with Vue 3.</p>
+                <p>&copy; 2025&ndash;{{ currentYear }} Aidan Powell. All rights reserved.</p>
             </div>
         </footer>
 
@@ -353,7 +355,7 @@ export default defineComponent({
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 8px rgba(20, 50, 90, .35);
-
+    
     .header-top {
         background: linear-gradient(180deg, #5fa1d9 0%, #2a72b9 50%, #226aae 51%, #154a82 100%);
         border-top: 1px solid #82b8e2;
@@ -367,6 +369,7 @@ export default defineComponent({
         align-items: center;
         justify-content: space-between;
         padding: 8px 24px;
+        padding-bottom: 1px;
     }
 
     .brand {

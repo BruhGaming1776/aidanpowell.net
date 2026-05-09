@@ -1,9 +1,10 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import ContactModal from './modal/ContactModal.vue';
+import BooksPanel from './components/BooksPanel.vue';
 
 export default defineComponent({
-    components: { ContactModal },
+    components: { ContactModal, BooksPanel },
     data() {
         return {
             currentYear: new Date().getFullYear(),
@@ -70,6 +71,7 @@ export default defineComponent({
                         <a href="#home" class="nav-tab nav-tab-active">Home</a>
                         <a href="#experience" class="nav-tab">Experience</a>
                         <a href="#education" class="nav-tab">Education</a>
+                        <a href="#books" class="nav-tab">Books</a>
                         <a href="#contact" class="nav-tab">Contact</a>
                     </nav>
                 </div>
@@ -275,6 +277,8 @@ export default defineComponent({
                     </div>
                 </div>
             </section>
+
+            <BooksPanel />
 
             <section id="contact" class="panel">
                 <div class="panel-header">

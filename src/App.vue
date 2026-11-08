@@ -112,8 +112,9 @@ export default defineComponent({
                                 </div>
                                 <p class="card-meta">Arizona DVS &middot; Phoenix, AZ &middot; Nov 2025 &ndash; Present</p>
                                 <ul class="card-list">
-                                    <li>Built a custom inventory ERP system by hand that led to outbound scanning time taking seconds, which gave way to the introduction of vendor-level inventory analytics, improving warehouse efficiency and purchasing decisions.</li>
-                                    <li>Processed vendor invoices, PO's, and internal customer requests for both ASVH-P &amp; AVMC-CN using all available vendors and procurement methods, leading to a <strong>25&ndash;50% decrease</strong> for the majority of items being requested.</li>
+                                    <li>Drove strategic sourcing and cost optimization initiatives through supplier evaluation, competitive bidding, and direct negotiations delivering over $5,000 in direct savings and $20,000+ in cost avoidance during my first year.</li>
+                                    <li>Oversaw financial compliance and procure-to-pay operations using an internal procurement system, maintaining budget adherence, contract compliance, and accurate invoice processing across our medical and cemetery operations.</li>
+                                    <li>Led supplier relationship management across a network of 100+ vendors, leveraging cross-functional stakeholder collaboration, and RFQ management to fulfill diverse operational purchasing requirements.</li>                                    
                                 </ul>
                             </div>
                         </div>
@@ -128,9 +129,9 @@ export default defineComponent({
                                 </div>
                                 <p class="card-meta">Staples &middot; Chandler, AZ &middot; Nov 2022 &ndash; Nov 2025</p>
                                 <ul class="card-list">
-                                    <li>Supported a <strong>40% reduction in inventory shrinkage</strong> over two years by implementing cycle counts, zero balancing, and precise IMS adjustments, reflecting true store inventory levels.</li>
-                                    <li>Managed USPS, UPS, FedEx, &amp; DHL package intakes maintaining a 30-minute pickup turnaround for customers.</li>
-                                    <li>Directly oversaw USPS mail intake, shipping, shredding, mailbox creation, customer pickups, and consolidations. Enabled global Ipostal customers at our store to access their mail within 2 hours, driving a <strong>15% increase in customer acquisition</strong>.</li>
+                                    <li>Supported a 30% reduction in inventory shrinkage over two years by implementing cycle counts, zero balancing, and precise IMS adjustments, reflecting true store inventory levels.</li>
+                                    <li>Managed Amazon, USPS, and UPS package intakes maintaining a 30-minute pickup turnaround for customers.</li>
+                                    <li>Directly oversaw USPS mail intake, shipping, shredding, mailbox creation, customer pickups, and consolidations. Enabled global Ipostal customers at our store to access their mail within 2 hours</li>
                                 </ul>
                             </div>
                         </div>
